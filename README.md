@@ -17,7 +17,7 @@ skill-name/
 
 | Skill | 说明 | 路径 |
 | --- | --- | --- |
-| `thesis-academic-revision-skill` | 面向中文本科论文的学术写作修订 skill，重点处理断句、标点、形容词/副词滥用，并辅助压缩空泛学术腔。 | [thesis-academic-revision-skill](./thesis-academic-revision-skill/) |
+| `thesis-academic-revision-skill` | 维普AIGC-面向中文本科论文的学术写作修订 skill，重点处理断句、标点、形容词/副词滥用，并辅助压缩空泛学术腔。 | [thesis-academic-revision-skill](./thesis-academic-revision-skill/) |
 
 ## 使用方式
 
@@ -27,10 +27,3 @@ skill-name/
 2. `SKILL.md`
 3. `examples/`
 
-## 后续维护建议
-
-后面继续往这个仓库里加 skill 时，建议同步维护这份列表：
-
-- 增加一个新目录
-- 在根 `README.md` 的表格里补一行
-- 每个 skill 自己保留独立的 `README.md` 和示例文件
